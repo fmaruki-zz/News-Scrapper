@@ -1,0 +1,33 @@
+- nome: Exemplo 1
+  abrev: Ex1
+  site: http://www.exemplo1.org.br/
+  lista_noticias:
+  - http://www.exemplo1.org.br/todas-noticias/page/{index}/
+  lista_noticias_link: h2.entry-title:parent
+  text: .entry-title,p
+
+- nome: Exemplo 2
+  abrev: Ex2
+  site: http://exemplo2.org.br/
+  noticias:
+  - http://exemplo2.org.br/post.aspx?c=1&pid={index}
+  text: .title-details,.content-details p
+
+- nome: Exemplo 3
+  abrev: Ex3
+  site: http://exemplo3.org.br/
+  lista_noticias:
+  - http://www.exemplo3.org.br/noticias-nacionais.php?categoria=&pag={index}
+  - http://exemplo3.org.br/noticias.php?categoria=p&pag={index}
+  - http://exemplo3.org.br/noticias.php?categoria=e&pag={index}
+  lista_noticias_link: .lista-noticias li a
+  text: .container-noticia.texto h2,.container-noticia.texto p
+
+- nome: Exemplo 4
+  abrev: Ex4
+  site: http://www.exemplo4.org.br/
+  lista_noticias:
+  - http://www.exemplo4.org.br/page/{index}/
+  lista_noticias_link: .titulo_post a
+  text: h1,.box_content_post p
+
